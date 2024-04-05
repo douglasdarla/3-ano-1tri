@@ -1,4 +1,36 @@
-body{
-    background: #1e1e1e;
+body {
+    background: #1e1e1e; /* cor de fundo do elemento */
+    color: #fff; /* cor das letras */
+}
+span {
+    color: red; /* cor das letras */
+}
+.principal {
+    display: flex; /* posiciona elementos um ao lado do outro */
+    flex-direction: column; /* direciona elementos na vertical */
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center; /* centraliza na vertcal */
+    max-width: 1200px; /* tamanho máximo da largura  */
+    width: 100%; /* largura total da tela */
+    margin: 0 auto; /* margens superior.inferior direita.esquerda */
+}
+.conteudo {
+    color: yellow;
+}
+.botoes {
+    display: flex;
+    width: 100%;
+}
+.botao {
+    background: rgba(60, 60, 95, 0.7);
+    padding: 1rem;
     color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-bottom: 4px solid yellowgreen;
+    border-left: 2px solid rgba(60, 60, 95, 0.7);
+    border-right: 2px solid rgba(60, 60, 95, 0.7);
+    border-top: none;
 }
