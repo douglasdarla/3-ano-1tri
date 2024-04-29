@@ -20,9 +20,25 @@ header{
 
 ul{
     list-style: none;
+    background: black;
+    padding-left: 1rem;
     display: flex;
-    padding-right: 10px;
+    gap: 1rem;
+    height: 2rem;
+    align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0);
+
+
+}
+
+html{
+    overflow: hidden; /* esconde o que não caber na página*/
+}
+html::-webkit-scrollbar{ /* Desaparecer com a barra de rolagem */
+    display: none;
 }
 
 li{
@@ -55,21 +71,26 @@ section a{
 }
 
 #inicio{
-    background-color: skyblue;
+    background:url(imagens/IMAGEM1.jpg);
+    background-size: cover;
 }
 
 #cursos{
-    background-color: aquamarine;
+    background:url(imagens/IMAGEM2.jpg);
+    background-size: cover;
 }
 
 #turnos{
-    background-color: mediumaquamarine;
+    background:url(imagens/IMAGEM3.webp);
+    background-size: cover;
 }
 
 #turmas{
-    background-color: mediumspringgreen;
+    background:url(imagens/IMAGEM4.webp);
+    background-size: cover;
 }
 
 #contato{
-    background-color: palegreen;
+    background:url(imagens/IMAGEM5.webp);
+    background-size: cover;
 }
